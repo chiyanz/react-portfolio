@@ -7,6 +7,11 @@
   z-index: 3;
   min-height: 500px;
 
+  p1 {
+    text-align: center;
+    text-decoration: none;
+  }
+
   .logo {
     display: block;
     padding: 8px 0;
@@ -19,7 +24,7 @@
     
     
       &.sub-logo {
-        width: 50px;
+        width: 40px;
       }
     }
   }
@@ -43,7 +48,7 @@
       text-decoration: none;
   
       i {
-        transition: all 0.3s east-out;
+        transition: all 0.3s ease-out;
   
       }
   
@@ -69,6 +74,7 @@
         width: 100%;
         text-align: center;
         opacity: 0;
+        -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
       }
 
@@ -97,6 +103,7 @@
       }
     }
   }
+
   ul {
     position: absolute;
     bottom: 20px;
@@ -113,8 +120,9 @@
         display: block;
         font-size: 15px;
         line-height: 16px;
+        color: #4d4d4e;
 
-        &:hover svg{
+        &:hover svg {
           color: #ffd700;
         }
       }
