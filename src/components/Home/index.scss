@@ -8,10 +8,35 @@
     max-height: 90%;
   }
 
-  .project {
+  .projects {
     position: absolute;
     right: 12%;
     top: 2%;
+
+    
+    &:before {
+      content: '<div>';
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -30px;;
+      left: -20px;
+      opacity: 0.6;
+    }
+
+
+    &:after {
+      content: '</div>';
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -20px;
+      margin-left: -20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
 
     h3 {
       color: #fff;
@@ -46,6 +71,11 @@
       animation: fadeIn 1s 1.8s backwards;
     } 
 
+    img {
+      animation: fadeIn 1s 1.8s backwards;
+      margin-bottom: 40px;
+    }
+
   }
 
 
@@ -70,7 +100,7 @@
 
 
     &:after {
-      content: '<h1/>';
+      content: '</h1>';
       font-family: 'La Belle Aurore';
       color: #ffd700;
       font-size: 18px;
