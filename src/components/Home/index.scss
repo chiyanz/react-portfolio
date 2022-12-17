@@ -8,6 +8,46 @@
     max-height: 90%;
   }
 
+  .project {
+    position: absolute;
+    right: 12%;
+    top: 2%;
+
+    h3 {
+      color: #fff;
+      font-size: 32px;
+      line-height: 28px;
+      margin-bottom: 20px;
+      margin-left: -20px;
+      font-family: 'Coolvetica';
+      font-weight: 200;
+      letter-spacing: 2px;
+      animation: fadeIn 1s 1.5s backwards;
+    }
+
+    h4{
+      color: #fff;
+      font-size: 20px;
+      line-height: 18px;
+      margin-bottom: 5px;
+      font-family: 'Coolvetica';
+      font-weight: 200;
+      letter-spacing: 2px;
+      animation: fadeIn 1s 1.7s backwards;
+    }
+
+    p{
+      color: #8d8d8d;
+      margin-bottom: 3px;
+      font-weight: 400;
+      font-size: 11px;
+      font-family: sans-serif;
+      letter-spacing: 2px;
+      animation: fadeIn 1s 1.8s backwards;
+    } 
+
+  }
+
 
   h1 {
     color: #fff;
@@ -17,29 +57,29 @@
     font-family: 'Coolvetica';
     font-weight: 400;
 
-    // &:before {
-    //   content: '<h1>';
-    //   font-family: 'La Belle Aurore';
-    //   color: #ffd700;
-    //   font-size: 18px;
-    //   position: absolute;
-    //   margin-top: -40px;;
-    //   left: 15px;
-    //   opacity: 0.6;
-    // }
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;;
+      left: 15px;
+      opacity: 0.6;
+    }
 
 
-    // &:after {
-    //   content: '<h1/>';
-    //   font-family: 'La Belle Aurore';
-    //   color: #ffd700;
-    //   font-size: 18px;
-    //   position: absolute;
-    //   margin-top: 18px;
-    //   margin-left: 20px;
-    //   animation: fadeIn 1s 1.7s backwards;
-    //   opacity: 0.6;
-    // }
+    &:after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
 
     img {
       width: 32px;
